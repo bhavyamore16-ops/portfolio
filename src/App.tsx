@@ -12,7 +12,7 @@ function App() {
           
         </div>
         <div>
-          <h1>Hi I am Bhavya..!</h1>
+          <h1>Hi I am Bhavya...!</h1>
           
         </div>
         
