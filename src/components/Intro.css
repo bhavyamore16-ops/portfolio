@@ -1,0 +1,9 @@
+.firstSection{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 2rem;
+      .description {
+        margin-top: 15px;
+      }
+    }

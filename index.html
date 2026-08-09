@@ -1,13 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhavya - personal portfolio</title>
+  <style>
+    * {
+      margin: 0 ;
+      padding: 0 ;
+    }
+
+    body {
+      background-color: rgb(21, 1, 58);
+      color: rgb(250, 249, 249);
+    }
+    nav{
+      display: flex;
+      justify-content:space-around;
+      align-items:center;
+      height: 80px;
+      background-color:#310666;
+      color: white;
+    }
+    nav ul{
+      display: flex;
+      justify-content: center ;
+    }
+ 
+    nav ul li{
+      list-style: none;
+      margin: 0 20px;
+      font-size:small;
+    }
+
+     nav ul li a{
+     
+      text-decoration: none;
+      color: white;
+    }
+    
+nav ul li a:hover{
+      color: rgb(11, 223, 251);
+      font-size:medium;
+    }
+
+    .left{
+      font-size: 1.3rem;
+    }
+    
+    
+   
+ 
+ .blue{
+  color:rgb(8, 8, 245);
+ }
+ 
+ 
+  </style>
+</head>
+
+<body>
+  
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
