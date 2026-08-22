@@ -1,0 +1,28 @@
+
+/* Container for the chips */
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Individual chip styling */
+.chip {
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #dbeafe; /* Light blue */
+  color: #1e40af; /* Dark blue */
+  border-radius: 9999px; /* Pill shape */
+  display: inline-flex;
+  align-items: center;
+}
+
+.chip-logo {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+

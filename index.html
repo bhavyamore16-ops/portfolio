@@ -15,14 +15,15 @@
     body {
       background-color: rgb(21, 1, 58);
       color: rgb(250, 249, 249);
+      height: 100%;;
     }
     nav{
       display: flex;
-      justify-content:space-around;
-      align-items:center;
-      height: 80px;
-      background-color:#310666;
-      color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(195, 0, 255);
+    color: #fff;
     }
     nav ul{
       display: flex;
@@ -42,7 +43,7 @@
     }
     
 nav ul li a:hover{
-      color: rgb(11, 223, 251);
+      color:aqua;
       font-size:medium;
     }
 
@@ -51,20 +52,28 @@ nav ul li a:hover{
     }
     
     
-   
- 
- .blue{
-  color:rgb(8, 8, 245);
- }
- 
  
   </style>
 </head>
 
+
 <body>
   
-  <div id="root"></div>
+  <div id="root">
+    <span id="element"></span>
+  </div>
+  
+
   <script type="module" src="/src/main.tsx"></script>
+  </script>
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script>
+
 </body>
 
 </html>

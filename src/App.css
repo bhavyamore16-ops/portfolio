@@ -20,8 +20,10 @@
 .profile-pic {
   width: 250px;
   height: 250px;
-  border-radius: 90%;
+  border-radius: 60%;
   object-fit:cover;
+  
+
 }
 
 
@@ -34,6 +36,7 @@
   .vite {
     inset-inline: 0;
     margin: 0 auto;
+    
   }
 
   .base {
@@ -66,17 +69,13 @@
 }
 
 #center {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  place-content: center;
-  place-items: center;
-  flex-grow: 1;
-
-  @media (max-width: 1024px) {
-    padding: 32px 20px 24px;
-    gap: 18px;
-  }
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    place-content: center;
+    place-items: center;
+    flex-grow: 1;
+    margin-top: 90px;
 }
 
 #next-steps {
@@ -162,14 +161,13 @@
   }
 }
 
-#spacer {
-  height: 88px;
-  border-top: 1px solid var(--border);
-  @media (max-width: 1024px) {
-    height: 48px;
-  }
+hr{
+  border: 0;
+    background: rgb(242, 242, 245);
+    height: 1px;
+    width: 100%;
+    margin: 40px 4px;
 }
-
 .ticks {
   position: relative;
   width: 100%;

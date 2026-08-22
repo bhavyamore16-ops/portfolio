@@ -4,6 +4,27 @@
       align-items: center;
       font-size: 2rem;
       .description {
-        margin-top: 15px;
+        margin-top: 21px;
+        
       }
     }
+    
+ .blue{
+  color:rgb(8, 8, 245);
+ }   
+
+ .description{
+  justify-content: space-around;
+ }
+
+ .purple{
+  color: rgb(195, 0, 255);
+  margin-top: 0px;
+  
+ }
+
+  .typefont {
+  margin-top: 20px;
+  color: rgb(101, 238, 3);
+}
+

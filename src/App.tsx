@@ -1,8 +1,10 @@
-import reactLogo from "./assets/react.svg";
+
 import profilePic from "./assets/profilepicture.jpg";
 import "./App.css";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
+import Learningexperienc from "./components/Learningexperienc";
+import Languages from "./components/Languages";
 
 function App() {
   return (
@@ -19,8 +21,12 @@ function App() {
           />
         </div>
         <Intro />
+        <hr /> 
       </section>
-      <section id="spacer"></section>
+      
+      <Learningexperienc/>
+      <Languages/>
+  
     </>
   );
 }
