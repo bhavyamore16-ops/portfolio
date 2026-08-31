@@ -11,6 +11,10 @@ function App() {
     <>
       <Header />
       <section id="center">
+        <div className="buttons">
+            <button className="btn1">Download Resume</button>
+            <button className="btn2">Visit Github</button>
+        </div>
         <div className="hero">
           <img
             src={profilePic}

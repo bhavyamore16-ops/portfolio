@@ -1,3 +1,18 @@
+.btn1{
+  background-color: purple;
+  color: white;
+  padding: 3px;
+  margin-left: 63rem;
+ }
+
+ .btn2{
+  background-color: purple;
+  color: white;
+  padding: 3px;
+  margin-left: 0.3rem;
+ }
+
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -75,7 +90,7 @@
     place-content: center;
     place-items: center;
     flex-grow: 1;
-    margin-top: 90px;
+    margin-top: 6px;
 }
 
 #next-steps {
