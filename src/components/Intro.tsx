@@ -16,6 +16,7 @@ function Intro() {
 </div>
 
     </section>
+    
 
   </main>
     )
