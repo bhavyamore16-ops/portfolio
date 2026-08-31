@@ -5,7 +5,7 @@ function Intro() {
         <main>
     <section className="firstSection">
 <div className="Intro">
-  Hi.! My Name is <span className="blue">Bhavya </span>
+  Hi.! My Name is <span className="blue">βhαvyα </span>
 <div className="description">
   I am student Of <span className="purple"> Computer Science...</span>
   <div className="typefont">
